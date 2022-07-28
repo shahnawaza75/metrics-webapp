@@ -1,0 +1,27 @@
+.main_container{
+    background-color: aqua;
+    height: 20vh;
+
+}
+
+.container {
+  height: 15vh;
+  display: grid;
+  grid-template-columns: 2fr 170px;
+}
+
+.firstbox {
+  height: 15vh;
+  background-color: green;
+  border: 2px solid black;
+}
+.secondbox {
+  height: 15vh;
+  background-color: rgb(0, 36, 128);
+  border: 2px solid black;
+}
+.thirdbox {
+  height: 15vh;
+  background-color: rgb(157, 171, 157);
+  border: 2px solid black;
+}
