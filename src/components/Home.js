@@ -1,19 +1,17 @@
-import React from 'react'
+import React from 'react';
 // import Header from './Header'
 // import Container from './Container'
-import FetchApi from './FetchApi'
+import FetchApi from './FetchApi';
 
 function Home() {
-    return (
-        <div>
+  return (
+    <div>
 
-          
-            <FetchApi/>
+      <FetchApi />
 
-        </div>
+    </div>
 
-    )
+  );
 }
 
-export default Home
-
+export default Home;
