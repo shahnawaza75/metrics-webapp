@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This mobile web applicationi built to check a list of metrics (numeric values) that you will create making use of React and Redux.
+This mobile web applicationi built to check a list of metrics (numeric values) that I will create making use of React and Redux.
 
 ## Built With
 
