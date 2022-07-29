@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Home Components Output 1`] = `
+<div>
+  <div
+    className="flex bg-pink-100 flex-col text-white"
+  >
+    <div
+      className="flex items-center justify-center space-x-2 h-32"
+    >
+      <img
+        alt="crypto"
+        className="w-1/2"
+        src="cryptocurrencyimage.jpeg"
+      />
+      <div>
+        <h1
+          className="font-extrabold text-2xl"
+        >
+          Crypto Exhange
+        </h1>
+        <p
+          className="font-semibold text-lg"
+        >
+          0
+           
+          crypto
+        </p>
+      </div>
+    </div>
+    <div
+      className="text-start pl-5 bg-pink-200 text-xl font-medium"
+    >
+      Stats
+    </div>
+    <ul
+      className="grid grid-cols-2"
+    />
+  </div>
+</div>
+`;
