@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-Now that all the functionality is done, I have added styling. I have used Zeplin as a collaboration tool.
+This mobile web applicationi built to check a list of metrics (numeric values) that you will create making use of React and Redux.
 
 ## Built With
 
