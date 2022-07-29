@@ -60,9 +60,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Microverse
-- Hat tip to anyone whose code was used
-- Inspiration etc.
+- Nelson Sakwa
+- [author of the original design]
 
 ## 📝 License
 

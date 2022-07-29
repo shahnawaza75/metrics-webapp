@@ -27,11 +27,11 @@ function FetchApi() {
       <div className="text-start pl-5 bg-pink-200 text-xl font-medium">
         Stats
       </div>
-      <ul className="grid grid-cols-2">
+      <ul className="list-items grid grid-cols-2">
         {allGames.map((game, id) => (
-          <Link to={`details/${id}`} key={game.id}>
-            <li className="flex flex-col bg-pink-300 items-center justify-center h-28 p-6">
-              <img className="w-2/5 self-start" src={game.image} alt="crypto" />
+          <li className="item flex flex-col items-center justify-center h-28 p-6" key={game.id}>
+            <img className="w-2/5 self-start" src={game.image} alt="crypto" />
+            <Link to={`details/${id}`}>
               <div className="self-end">
                 <p className="font-bold text-lg">{game.name}</p>
                 <p className="font-semibold">
@@ -39,8 +39,8 @@ function FetchApi() {
                   {game.current_price}
                 </p>
               </div>
-            </li>
-          </Link>
+            </Link>
+          </li>
         ))}
       </ul>
     </div>
