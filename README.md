@@ -17,7 +17,9 @@ The basic requirements for building the executable are:
 
 - A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)
 
-## Getting Started
+## Live Video 
+
+https://www.loom.com/share/f02892d1195d4b179db68a0a90b35b3f
 
 ## Live Preview
 
