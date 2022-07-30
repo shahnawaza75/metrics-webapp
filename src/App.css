@@ -38,18 +38,35 @@
   }
 }
 
-.list-items li:nth-child(4n + 1) {
+.list-items li:nth-child(4n - 1) {
   background-color: #d04379;
 }
 
-.list-items li:nth-child(4n + 2) {
+/* .list-items li:nth-child(4n + 2) {
   background-color: #ec4c8a;
 }
 
-.list-items li:nth-child(4n + 3) {
+.list-items li:nth-child(2n + 4) {
+  background-color: #ec4c8a;
+} */
+.list-items li:nth-child(4n - 2) {
   background-color: #d04379;
 }
 
-.list-items li:nth-child(4n + 4) {
-  background-color: #ec4c8a;
+.w-2\/5 {
+  width: 35%;
+}
+
+@media screen and (min-width: 768px) {
+  .logoun {
+    width: 20%;
+  }
+
+  .w-2\/5 {
+    width: 20%;
+  }
+
+  .item {
+    padding: 80px;
+  }
 }

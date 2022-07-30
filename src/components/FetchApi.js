@@ -14,7 +14,7 @@ function FetchApi() {
   return (
     <div className="flex bg-pink-100 flex-col text-white">
       <div className="flex items-center justify-center space-x-2 h-32">
-        <img src={image} alt="crypto" className="w-1/2" />
+        <img src={image} alt="crypto" className="logoun w-1/2" />
         <div>
           <h1 className="font-extrabold text-2xl">Crypto Exhange</h1>
           <p className="font-semibold text-lg">
@@ -29,7 +29,7 @@ function FetchApi() {
       </div>
       <ul className="list-items grid grid-cols-2">
         {allGames.map((game, id) => (
-          <li className="item flex flex-col items-center justify-center h-28 p-6" key={game.id}>
+          <li className="item flex flex-col items-center justify-center h-28 p-10 g-5" key={game.id}>
             <img className="w-2/5 self-start" src={game.image} alt="crypto" />
             <Link to={`details/${id}`}>
               <div className="self-end">

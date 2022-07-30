@@ -10,7 +10,7 @@ exports[`Test Home Components Output 1`] = `
     >
       <img
         alt="crypto"
-        className="w-1/2"
+        className="logoun w-1/2"
         src="cryptocurrencyimage.jpeg"
       />
       <div>
@@ -34,7 +34,7 @@ exports[`Test Home Components Output 1`] = `
       Stats
     </div>
     <ul
-      className="grid grid-cols-2"
+      className="list-items grid grid-cols-2"
     />
   </div>
 </div>
