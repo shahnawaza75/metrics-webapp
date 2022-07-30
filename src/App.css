@@ -57,7 +57,7 @@
   width: 35%;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .logoun {
     width: 20%;
   }
@@ -69,4 +69,4 @@
   .item {
     padding: 80px;
   }
-}
+} */
