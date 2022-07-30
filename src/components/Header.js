@@ -4,7 +4,7 @@ import './Header.css';
 import PropTypes from 'prop-types';
 
 const Header = ({ path }) => (
-  <nav className="bg-pink-100 h-11 m-auto py-2">
+  <nav className="bg-pink-100 h-11 m-auto py-2 px-4">
     <ul className="flex items-center justify-between">
       <li className="flex items-center justify-center">
         {path !== '/' && (
